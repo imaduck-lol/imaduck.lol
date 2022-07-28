@@ -1,0 +1,9 @@
+body { background: #ffffff; color: #000000; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+
+:root { --accent-bg: #ffffff; }
+
+body > header { padding-top: 2rem; border-bottom: 0; }
+
+header div { border-radius: 50%; background-image: url(" http://localhost:4000/assets/duck.jpg"); background-size: cover; height: 6em; width: 6em; display: inline-block; }
+
+/*# sourceMappingURL=main.css.map */
