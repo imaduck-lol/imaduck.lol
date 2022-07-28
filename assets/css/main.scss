@@ -2,3 +2,21 @@
 ---
 
 @import "main";
+
+:root{
+    --accent-bg: #ffffff;
+}
+
+body>header{
+    padding-top: 2rem;
+    border-bottom: 0;
+}
+
+header div{
+    border-radius: 50%;
+    background-image: url(" {{ "assets/duck.jpg" | absolute_url }}");
+    background-size: cover;
+    height: 6em;
+    width: 6em;
+    display: inline-block;
+}

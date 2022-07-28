@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "Happy Jekylling!"
+title: "Or am I?"
 ---
 
-## You're ready to go!
+## quakpot ideas
 
-Start developing your Jekyll website.
+
