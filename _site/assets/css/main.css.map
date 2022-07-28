@@ -5,8 +5,8 @@
 		"main.scss"
 	],
 	"sourcesContent": [
-		":root{\n    --accent-bg: #ffffff;\n}\n\nbody>header{\n    padding-top: 2rem;\n    border-bottom: 0;\n}\n\nheader div{\n    border-radius: 50%;\n    background-image: url(\" http://localhost:4000/assets/duck.jpg\");\n    background-size: cover;\n    height: 6em;\n    width: 6em;\n    display: inline-block;\n}\n"
+		":root{\n}\n\nbody>header{\n    padding-top: 5rem;\n    border-bottom: 0;\n    background: var(--bg);\n}\n\nheader div{\n    border-radius: 50%;\n    background-image: url(\" http://localhost:4000/assets/duck.jpg\");\n    background-size: cover;\n    height: 6em;\n    width: 6em;\n    display: inline-block;\n}\n\nh1{ text-align: center; }\n"
 	],
 	"names": [],
-	"mappings": "CAAC,AAAD,IAAK,CAAA,EACD,WAAW,CAAA,QAAC,GACf;;AAED,AAAA,IAAI,GAAC,MAAM,CAAA,EACP,WAAW,EAAE,IAAI,EACjB,aAAa,EAAE,CAAC,GACnB;;AAED,AAAA,MAAM,CAAC,GAAG,CAAA,EACN,aAAa,EAAE,GAAG,EAClB,gBAAgB,EAAE,6CAA6C,EAC/D,eAAe,EAAE,KAAK,EACtB,MAAM,EAAE,GAAG,EACX,KAAK,EAAE,GAAG,EACV,OAAO,EAAE,YAAY,GACxB"
+	"mappings": "AAGA,AAAA,IAAI,GAAC,MAAM,CAAA,EACP,WAAW,EAAE,IAAI,EACjB,aAAa,EAAE,CAAC,EAChB,UAAU,EAAE,SAAS,GACxB;;AAED,AAAA,MAAM,CAAC,GAAG,CAAA,EACN,aAAa,EAAE,GAAG,EAClB,gBAAgB,EAAE,6CAA6C,EAC/D,eAAe,EAAE,KAAK,EACtB,MAAM,EAAE,GAAG,EACX,KAAK,EAAE,GAAG,EACV,OAAO,EAAE,YAAY,GACxB;;AAED,AAAA,EAAE,CAAA,EAAE,UAAU,EAAE,MAAM,GAAI"
 }
