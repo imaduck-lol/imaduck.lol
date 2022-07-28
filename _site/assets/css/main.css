@@ -1,5 +1,3 @@
-body { background: #ffffff; color: #000000; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
-
 :root { --accent-bg: #ffffff; }
 
 body > header { padding-top: 2rem; border-bottom: 0; }
