@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>How To Specify An Ssh Key When Pushing To Github - imaduck.lol</title>
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+  </head>
+  <body>
+    <header>
+        <h1><a href="/">Home</a></h1>
+    </header>
+    <h1>how to specify an ssh key when pushing to github</h1>
+    <main>
+        <p>I came across this issue today when pushing to a new github account completely unrelated to anything you may be reading now. <code class="language-plaintext highlighter-rouge">git push</code> only wanted to use my default ssh key and thus my other github account. It <a href="https://stackoverflow.com/q/5335197">appears to have something to do with caching</a> but thanks to <a href="https://stackoverflow.com/users/4394850/hustlion">Hustlion</a> over at <a href="https://stackoverflow.com/a/43953433">github</a>, I was able to get it working with the following command:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>GIT_SSH_COMMAND='ssh -i ~/.ssh/your_private_key' git COMMAND
+</code></pre></div></div>
+
+    </main>
+  </body>
+</html>

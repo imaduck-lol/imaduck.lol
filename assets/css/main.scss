@@ -10,13 +10,14 @@ body>header{
     background: var(--bg);
 }
 
-header div{
+header h1 a{
     border-radius: 50%;
     background-image: url(" {{ "assets/duck.jpg" | absolute_url }}");
     background-size: cover;
-    height: 6em;
-    width: 6em;
+    height: 3em;
+    width: 3em;
     display: inline-block;
+    text-indent: -9000px;
 }
 
 h1{ text-align: center; }
