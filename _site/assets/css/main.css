@@ -1,6 +1,6 @@
 body > header { padding-top: 5rem; border-bottom: 0; background: var(--bg); }
 
-header h1 a { border-radius: 50%; background-image: url(" http://localhost:4000/assets/duck.jpg"); background-size: cover; height: 3em; width: 3em; display: inline-block; text-indent: -9000px; }
+header h1 a { border-radius: 50%; background-image: url(" http://localhost:4000/assets/duck.png"); background-size: cover; height: 3em; width: 3em; display: inline-block; text-indent: -9000px; }
 
 h1 { text-align: center; }
 

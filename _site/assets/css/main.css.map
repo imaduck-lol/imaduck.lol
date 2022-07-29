@@ -5,7 +5,7 @@
 		"main.scss"
 	],
 	"sourcesContent": [
-		":root{\n}\n\nbody>header{\n    padding-top: 5rem;\n    border-bottom: 0;\n    background: var(--bg);\n}\n\nheader h1 a{\n    border-radius: 50%;\n    background-image: url(\" http://localhost:4000/assets/duck.jpg\");\n    background-size: cover;\n    height: 3em;\n    width: 3em;\n    display: inline-block;\n    text-indent: -9000px;\n}\n\nh1{ text-align: center; }\n"
+		":root{\n}\n\nbody>header{\n    padding-top: 5rem;\n    border-bottom: 0;\n    background: var(--bg);\n}\n\nheader h1 a{\n    border-radius: 50%;\n    background-image: url(\" http://localhost:4000/assets/duck.png\");\n    background-size: cover;\n    height: 3em;\n    width: 3em;\n    display: inline-block;\n    text-indent: -9000px;\n}\n\nh1{ text-align: center; }\n"
 	],
 	"names": [],
 	"mappings": "AAGA,AAAA,IAAI,GAAC,MAAM,CAAA,EACP,WAAW,EAAE,IAAI,EACjB,aAAa,EAAE,CAAC,EAChB,UAAU,EAAE,SAAS,GACxB;;AAED,AAAA,MAAM,CAAC,EAAE,CAAC,CAAC,CAAA,EACP,aAAa,EAAE,GAAG,EAClB,gBAAgB,EAAE,6CAA6C,EAC/D,eAAe,EAAE,KAAK,EACtB,MAAM,EAAE,GAAG,EACX,KAAK,EAAE,GAAG,EACV,OAAO,EAAE,YAAY,EACrB,WAAW,EAAE,OAAO,GACvB;;AAED,AAAA,EAAE,CAAA,EAAE,UAAU,EAAE,MAAM,GAAI"

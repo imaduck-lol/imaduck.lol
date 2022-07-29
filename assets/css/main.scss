@@ -12,7 +12,7 @@ body>header{
 
 header h1 a{
     border-radius: 50%;
-    background-image: url(" {{ "assets/duck.jpg" | absolute_url }}");
+    background-image: url(" {{ "assets/duck.png" | absolute_url }}");
     background-size: cover;
     height: 3em;
     width: 3em;
